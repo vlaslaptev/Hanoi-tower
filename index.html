@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Hanoi-tower</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+
+
+<div class="container">
+    <div class="flex-container tower" id="tower-1">
+        <div class="base"></div>
+        <div class="round round-4" id="4_round"></div>
+        <div class="round round-3" id="3_round"></div>
+        <div class="round round-2" id="2_round"></div>
+        <div class="round round-1" id="1_round"></div>
+    </div>
+
+    <div class="flex-container tower" id="tower-2">
+        <div class="base"></div>
+    </div>
+
+    <div class="flex-container tower" id="tower-3">
+        <div class="base"></div>
+    </div>
+</div>
+
+<div class="score-board">
+    <div id="steps">Ходы - <span id="count">0</span></div>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

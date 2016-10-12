@@ -1,0 +1,75 @@
+html,
+body {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+}
+
+body {
+    background: #ffffff;
+    padding: 0;
+    font: 30px 'Open Sans', Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 5px;
+}
+
+.tower {
+    min-height: 200px;
+}
+
+.round {
+    height: 20px;
+    border-radius: 15px 15px;
+    margin-bottom: 0.1px;
+}
+
+.round-1 {
+    width: 100px;
+    background-color: #f44336;
+}
+
+.round-2 {
+    width: 120px;
+    background-color: #009688;
+}
+
+.round-3 {
+    width: 140px;
+    background-color: #ff9800;
+}
+
+.round-4 {
+    width: 160px;
+    background-color: #2196f3;
+}
+
+.base {
+    background-color: #333;
+    width: 170px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+#steps {
+    color: #333333;
+}
+
+.score-board {
+    position: fixed;
+    top: 60px;
+}
