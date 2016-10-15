@@ -79,3 +79,16 @@ $(".restart").click(function () {
         }
     }).appendTo("#tower-1");
 });
+
+$(".info").click(function () {
+    var alert = $("#info-alert");
+    if (alert.hasClass("info-alert-hidden")) {
+        alert.removeClass("info-alert-hidden");
+    } else {
+        alert.addClass("info-alert-hidden");
+    }
+});
+
+$(".close").click(function () {
+    $("#info-alert").addClass("info-alert-hidden");
+});
