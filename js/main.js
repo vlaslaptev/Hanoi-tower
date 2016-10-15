@@ -59,7 +59,7 @@ function canBeDragged(from, discId) {
 
 function canAppend(target, discId) {
     var children = $(target).children();
-    return children.length == 1 || parseInt(children[1].id) >= parseInt(discId);
+    return children.length == 1 || parseInt(children.last().attr('id')) >= parseInt(discId);
 }
 
 $(".restart").click(function () {
